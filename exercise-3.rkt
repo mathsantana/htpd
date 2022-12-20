@@ -4,10 +4,7 @@
 (define str "helloworld")
 (define i 5)
 
-(define (add-underline-at str i)
-  (string-append
-   (substring str 0 i)
-   "_"
-   (substring str i)))
-
-(add-underline-at str i)
+(string-append
+ (substring str 0 i)
+ "_"
+ (substring str i))

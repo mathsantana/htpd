@@ -4,6 +4,4 @@
 (define prefix "hello")
 (define suffix "world")
 
-(define (concat-words prefix suffix) (string-append prefix "_" suffix))
-
-(concat-words prefix suffix)
+(string-append prefix "_" suffix)

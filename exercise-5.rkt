@@ -3,14 +3,9 @@
 #reader(lib "htdp-beginner-reader.ss" "lang")((modname exercise-5) (read-case-sensitive #t) (teachpacks ((lib "image.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp"))) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ((lib "image.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp")) #f)))
 (define SCALE 5)
 
-(define (tree-image scale)
-  (overlay/xy
-   (circle (* 10 scale) "solid" "green")
-   (* 7.5 scale)
-   (* 18 scale)
-   (rectangle (* 5 scale) (* 10 scale) "solid" "brown")
-   )
-  )
-
-(tree-image SCALE)
+(overlay/xy
+ (circle (* 10 SCALE) "solid" "green")
+ (* 7.5 SCALE)
+ (* 18 SCALE)
+ (rectangle (* 5 SCALE) (* 10 SCALE) "solid" "brown"))
                             
