@@ -5,7 +5,7 @@
 ;; I Fixed Data - Exercise 6
 ;; Author: @mathsantana
 
-(define CAT (bitmap "./assets/cat.png"))
+(define CAT (bitmap "../assets/cat.png"))
 
 (* (image-width CAT)
    (image-height CAT))

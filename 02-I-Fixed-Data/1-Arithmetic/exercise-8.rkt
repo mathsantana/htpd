@@ -5,7 +5,7 @@
 ;; I Fixed Data - Exercise 8
 ;; Author: @mathsantana
 
-(define CAT (bitmap "./assets/cat.png"))
+(define CAT (bitmap "../assets/cat.png"))
 
 (cond
   [(> (image-height CAT) (image-width CAT)) "tall"]

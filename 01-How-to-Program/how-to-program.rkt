@@ -13,7 +13,7 @@
 (define CENTER-X (/ WIDTH 2))
 
 
-(define ROCKET (bitmap "./assets/rocket.png"))
+(define ROCKET (bitmap "../assets/rocket.png"))
 (define BACKGROUND (empty-scene WIDTH HEIGHT))
 (define ROCKET-CENTER-TO-TOP
   (- HEIGHT (/ (image-height ROCKET) 2)))
